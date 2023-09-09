@@ -32,7 +32,7 @@ fun_bar() {
 res1() {
     wget https://raw.githubusercontent.com/Anggajrxxx/vip/main/menu/menu.zip
     unzip menu.zip
-    chmod +x menu/*
+    chmod +x *
     mv menu/* /usr/local/sbin
     rm -rf menu.zip
     rm -rf update.sh
